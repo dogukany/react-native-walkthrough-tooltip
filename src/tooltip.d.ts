@@ -146,6 +146,14 @@ declare module 'react-native-walkthrough-tooltip' {
 
     // Support for nested elements within the Tooltip component.
     children?: React.ReactNode;
+
+    //Set animation for React Native modal. Default is 'none'
+    animationType?: 'none' | 'fade' | 'slide';
+
+    skipText?: string;
+    SkipTextStyle?: StyleProp<ViewStyle>;
+    SkipFunction?: () => void;
+    
   }
 
   /**
