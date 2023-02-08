@@ -499,6 +499,7 @@ class Tooltip extends Component {
             onRequestClose={this.props.onClose}
             supportedOrientations={this.props.supportedOrientations}
             animationType={this.props.animationType}
+            statusBarTranslucent={true}
           >
             {this.renderContentForTooltip()}
           </ModalComponent>
